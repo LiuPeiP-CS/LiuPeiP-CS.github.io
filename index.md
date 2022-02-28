@@ -28,10 +28,10 @@
 &emsp;&emsp;2011.09～2015.06：Shandong University of Science and Technology（Top 5%）
 ### Publication
 &emsp;&emsp;**刘培培**,杨祥来.基于图像信息的话者识别[J].中国科技论文,2018,13(20):2388-2393.  
-&emsp;&emsp; Wang, Z., Zhu, H., **Liu, P.** et al. Social engineering in cybersecurity: a domain ontology and knowledge graph application examples. Cybersecur 4, 31 (2021). https://doi.org/10.1186/s42400-021-00094-6
-&emsp;&emsp; Zhang S, Bai G, Li H, **Liu P**, Zhang M, Li S. Multi-Source Knowledge Reasoning for Data-Driven IoT Security. Sensors (Basel). 2021 Nov 15;21(22):7579. doi: 10.3390/s21227579. PMID: 34833653; PMCID: PMC8623156.
-&emsp;&emsp;Shuqin Zhang,Jinyang Wang,Guangyao Bai,Minzhi Zhang,**Peipei Liu**. Trajectory prediction based on sparse spatiotemporal data[C]. The 4th International Seminar on Artificial Intelligence, Networking and Information Technology(ANIT2020).Tianjin, China,Dec. 26-27, 2020:45-54.DOI:10.26914/c.cnkihy.2020.064187.
-&emsp;&emsp;张书钦,王金洋,白光耀,张敏智,**刘培培**.基于语义时空轨迹的位置预测[J].中原工学院学报,2021,32(03):59-67+84.
+&emsp;&emsp; Wang, Z., Zhu, H., **Liu, P.** et al. Social engineering in cybersecurity: a domain ontology and knowledge graph application examples. Cybersecur 4, 31 (2021). https://doi.org/10.1186/s42400-021-00094-6  
+&emsp;&emsp; Zhang S, Bai G, Li H, **Liu P**, Zhang M, Li S. Multi-Source Knowledge Reasoning for Data-Driven IoT Security. Sensors (Basel). 2021 Nov 15;21(22):7579. doi: 10.3390/s21227579. PMID: 34833653; PMCID: PMC8623156.  
+&emsp;&emsp;Shuqin Zhang,Jinyang Wang,Guangyao Bai,Minzhi Zhang,**Peipei Liu**. Trajectory prediction based on sparse spatiotemporal data[C]. The 4th International Seminar on Artificial Intelligence, Networking and Information Technology(ANIT2020).Tianjin, China,Dec. 26-27, 2020:45-54.DOI:10.26914/c.cnkihy.2020.064187.  
+&emsp;&emsp;张书钦,王金洋,白光耀,张敏智,**刘培培**.基于语义时空轨迹的位置预测[J].中原工学院学报,2021,32(03):59-67+84.  
 ### Project
 &emsp;&emsp;物联网安全本体与知识图谱构建（基于protege设计物联网设备安全本体，并在本体的指导下实现相关图谱）  
 &emsp;&emsp;XXX终端节点预测与分析（实现对图节点的预测和图的重构）  
