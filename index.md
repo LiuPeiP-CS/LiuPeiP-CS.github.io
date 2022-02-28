@@ -48,7 +48,7 @@
 &emsp;&emsp;Outstanding student honor in colleges and universities of Shandong Province  
 &emsp;&emsp;Outstanding graduate honor in Shandong Province  
 &emsp;&emsp;First prize in Mathematics competition for Shandong College Students  
-&emsp;&emsp;3rd prize in Mathematics competition for Chinese College Students
+&emsp;&emsp;Third prize in Mathematics competition for Chinese College Students
 
 ### Tech Blog
 &emsp;&emsp;[csdn](https://blog.csdn.net/LiuPeiP_VIPL)
