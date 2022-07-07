@@ -27,9 +27,9 @@
 &emsp;&emsp;2016.09～2019.06：Institute of Computing Technology, Chinese Academy of Sciences；Shandong University of Science and Technology  
 &emsp;&emsp;2011.09～2015.06：Shandong University of Science and Technology（Top 5%）
 ### Publication
-&emsp;&emsp;[1] **Peipei Liu**, Hong Li, Zuoguang Wang, Jie Liu, Ren Yimo, Hongsong Zhu. Multi-features based Semantic Augmentation Networks for Named Entity Recognition in Threat Intelligence. Proceedings of  26th International Conference on Pattern Recognition(ICPR 2022). Montréal, Canada, August 22-25, 2022. (CCF-C) [pdf](https://arxiv.org/abs/2207.00232）  
-&emsp;&emsp;[2] **刘培培**,杨祥来.基于图像信息的话者识别[J].中国科技论文,2018,13(20):2388-2393. (北大核心) [pdf](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2019&filename=ZKZX201820017&uniplatform=NZKPT&v=C9RLFR3vrU0M0x8MROreR4cXMlfQ2ROOU4u5eyQiaXsSbb6hB-bj5-7KQdKeZLZ0）  
-&emsp;&emsp;[3] Wang, Z., Zhu, H., **Liu, P.** et al. Social engineering in cybersecurity: a domain ontology and knowledge graph application examples. Cybersecur 4, 31 (2021). (IIE-B) [pdf](https://doi.org/10.1186/s42400-021-00094-6）  
+&emsp;&emsp;[1] **Peipei Liu**, Hong Li, Zuoguang Wang, Jie Liu, Ren Yimo, Hongsong Zhu. Multi-features based Semantic Augmentation Networks for Named Entity Recognition in Threat Intelligence. Proceedings of  26th International Conference on Pattern Recognition(ICPR 2022). Montréal, Canada, August 22-25, 2022. (CCF-C) [pdf](https://arxiv.org/abs/2207.00232)  
+&emsp;&emsp;[2] **刘培培**,杨祥来.基于图像信息的话者识别[J].中国科技论文,2018,13(20):2388-2393. (北大核心) [pdf](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2019&filename=ZKZX201820017&uniplatform=NZKPT&v=C9RLFR3vrU0M0x8MROreR4cXMlfQ2ROOU4u5eyQiaXsSbb6hB-bj5-7KQdKeZLZ0)  
+&emsp;&emsp;[3] Wang, Z., Zhu, H., **Liu, P.** et al. Social engineering in cybersecurity: a domain ontology and knowledge graph application examples. Cybersecur 4, 31 (2021). (IIE-B) [pdf](https://doi.org/10.1186/s42400-021-00094-6)  
 黄振洋，王雨城，王高升，**刘培培**，朱红松等。基于机器阅读理解的网络安全事件抽取方法。《信息安全学报》。2022.3  (IIE-B)  
 &emsp;&emsp;[4] Zhang S, Bai G, Li H, **Liu P**, Zhang M, Li S. Multi-Source Knowledge Reasoning for Data-Driven IoT Security. Sensors (Basel). 2021 Nov 15;21(22):7579. (SCI, Q2) [pdf](https://www.mdpi.com/1424-8220/21/22/7579)  
 &emsp;&emsp;[5] Ying Wang, Zehao Wang, Hong Li, **Peipei Liu**, Yachao Li, etc. A hybrid Chinese named entity recognition method for Internet of Things. ICCBDAI 2021 (EI)  
