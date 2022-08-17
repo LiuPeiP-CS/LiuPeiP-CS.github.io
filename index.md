@@ -33,7 +33,7 @@
 &emsp;&emsp;[4] Jie Liu，Jinfa	Wang，**Peipei Liu**，Hongsong Zhu et al. Discover the ICS landmarks based on multi-stage clue mining. The 17th International Conference on Wireless Algorithms, Systems, and Applications(WASA 2022). Dalian, China, August 26-28, 2022. (CCF-C)   
 &emsp;&emsp;[5] 黄振洋，王雨城，王高升，**刘培培**，朱红松等。基于机器阅读理解的网络安全事件抽取方法。《信息安全学报》。2022.3  (CCF-B)  
 &emsp;&emsp;[6] Weifeng Wang#, **Peipei Liu#**, Zhiyu Wang, Yimo Ren，etc. Automatic construction of large-scale IoT datasets with
-multi-strategy fusion. Preprint (#: Equal Contribution, EI)[pdf](https://github.com/LiuPeiP-CS/LiuPeiP-CS.github.io/blob/gh-pages/JCST-Template-%20submit%20202105.pdf)  
+multi-strategy fusion. The 16th China Conference on Internet of Things (Wireless Sensor Network) (#: Equal Contribution, ,EI)[pdf](https://github.com/LiuPeiP-CS/LiuPeiP-CS.github.io/blob/gh-pages/JCST-Template-%20submit%20202105.pdf)  
 &emsp;&emsp;[7] Zhang S, Bai G, Li H, **Liu P**, Zhang M, Li S. Multi-Source Knowledge Reasoning for Data-Driven IoT Security. Sensors (Basel). 2021 Nov 15;21(22):7579. (JCR, Q2) [pdf](https://www.mdpi.com/1424-8220/21/22/7579)  
 &emsp;&emsp;[8] Ying Wang, Zehao Wang, Hong Li, **Peipei Liu**, Yachao Li, etc. A hybrid Chinese named entity recognition method for Internet of Things. ICCBDAI 2021 (EI)  
 &emsp;&emsp;[9] Shuqin Zhang,Jinyang Wang,Guangyao Bai,Minzhi Zhang,**Peipei Liu**. Trajectory prediction based on sparse spatiotemporal data[C]. The 4th International Seminar on Artificial Intelligence, Networking and Information Technology(ANIT2020).Tianjin, China,Dec. 26-27, 2020:45-54.DOI:10.26914/c.cnkihy.2020.064187.(EI）  
