@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    	<title>Welcome to Peipei Liu's Homepage</title>
+	<style>
+		@media screen and (max-device-width: 600px){
+  			body{-webkit-text-size-adjust: none;}
+		}
+		p { font-size : 16px; }
+		h1 { padding : 0; margin : 0; font-size : 30px; }
+		h2 { font-size : 20px; margin : 0; padding : 0; }
+		h3 { font-size : 16px; margin : 0; padding : 0; }
+		body { padding : 0; font-family : Arial; font-size : 16px; background-color : #FFFFFF; }
+		.title { width : 650px; margin : 20px auto; }
+		.container { width : 800px; margin : 20px auto; border-radius: 10px;  background-color : #fff; padding : 20px;  clear:both;}
+		.bio {padding-top: 50px; }
+		.me { border : 0 solid black; margin-bottom : 50px; border-radius : 10px; }
+		.sidebar { margin-left : 30px; margin-right: 30px; border : 0 solid black; float: left; margin-bottom : 0;}
+		a { text-decoration : none; }
+		a:hover { text-decoration : underline; }
+		a, a:visited { color : #0050e7; }
+		.sectiontitle { width : 800px; margin : 10px auto 5px; background-color : #fff; 
+			padding : 10px;  clear:both; font-size: 18px; font-weight: bold; }
+		.sectioncontent { width : 800px; margin : auto auto; background-color : #fff; 
+			clear:both; font-size: 16px; font-weight: normal; }
+		.biocontent { width : 800px; margin : auto auto; background-color : #fff; 
+			clear:both; font-size: 16px; font-weight: normal; text-align:justify }
+		.publogo { width: 100 px; margin-right : 30px; margin-left : 30px; float : left; border : 0;}
+		.publication { clear : left; padding-bottom : 0px; }
+		.publication p { height : 100px; padding-top : 5px;}
+		.sectioncontent strong { color : rgb(40, 20, 100); font-size: 16px;}
+		.publication .links { position : relative; top : 15px }
+		.publication .links a { margin-right : 20px; }
+		.codelogo { margin-right : 10px; float : left; border : 0;}
+		.code { clear : left; padding-bottom : 10px; vertical-align :middle;} 
+		.code .download a { display : block; margin : 0 15px; float : left;}
+		.code strong a { color : #000; }
+		.external a { margin : 0 10px; }
+		.external a.first { margin : 0 10px 0 0; }
+        .footer {
+            position: relative;
+            bottom: 0;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .counter {
+            font-weight: bold;
+            color: #007ACC;
+        }
+	</style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // 从 localStorage 获取访问次数
+            let visitCount = parseInt(localStorage.getItem("visitCount") || 0);
+            
+            // 增加访问次数并保存
+            visitCount += 1;
+            localStorage.setItem("visitCount", visitCount);
+
+            // 更新页面显示
+            document.getElementById("visit-counter").innerText = visitCount;
+        });
+    </script>
+</head>
+
+
+<body>
+	<div class="title">
+		<div class="sidebar">
+			<img src="./imgs/个人照片YQHJ.png" id="me" itemprop="photo" vspace="-30 px" width="280 px">
+		</div>
+		<div class = "bio">
+			<h1>
+				<span itemprop="name">Peipei Liu</span>
+			</h1>
+			<p style="line-height:25px;">
+				<h2><br></h2>
+				<h2>Assistant Researcher <br>@ ZGC Lab</h2>
+				<br>
+				<h3>Email: peipliu [at] yeah.net</h3>
+			</p>
+			<p class="external">
+            	<a href="https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=peipei+liu+Hongsong+zhu&btnG=" class="first">[Google Scholar]</a> 
+				<a href="https://www.semanticscholar.org/author/Peipei-Liu/2113250866" class="first">[Semantic Scholar]</a>
+				<a href="https://www.researchgate.net/profile/Peipei-Liu-17" class="first">[ResearchGate]</a>
+				<a href="https://blog.csdn.net/LiuPeiP_VIPL" class="first">[CSDN]</a>
+				<a href="https://github.com/LiuPeiP-CS" class="first">[Github]</a>
+			</p>
+		</div>
+	</div>
+
+	<div id="bioabm" class="sectiontitle">
+		About Me
+		<hr/>
+		<div name="biograph" id="shortbio" class="biocontent">
+			Currently, I am an Assistant Researcher at Zhongguancun Laboratory, specializing in the research of code reverse analysis by artificial intelligence. Prior to this role, I earned my Ph.D. from <a href="https://www.ucas.ac.cn/">University of Chinese Academy of Sciences</a>, where I focused on open-source cyber threat intelligence(OSCTI) analysis based on natural language processing(NLP) under the esteemed guidance of <a href="http://people.ucas.edu.cn/~zhuhongsong">Professor. Hongsong Zhu</a>. 
+            
+            My academic journey further extends to a Master degree, which I obtained through a joint-program between <a href="http://www.ict.ac.cn/">Institute of Computing Technology</a> and <a href="https://www.sdust.edu.cn/">Shandong University of Science and Technology</a>. Under the instruction of <a href="https://people.ucas.edu.cn/~sqjiang">Professor. Shuqiang Jiang</a>, I explored the realm of multimodal intelligent robots.
+
+            Before that, I completed my Bachelor degree at Shandong University of Science and Technology, where I got the invaluable guidance and help from <a href="http://cise.sdust.edu.cn/home/Page/teacher_detail/catId/30/id/107.html">Professor. Qingtian Zeng</a> and <a href="http://cise.sdust.edu.cn/home/page/details/catId/85/id/206.html">Peng Zhang</a>. 
+		</div>
+	</div>
+
+
+	<div id="researchintests" class="sectiontitle">
+		Research Interest
+		<hr/>
+		<div name="biograph" id="shortbio" class="biocontent">
+			My research interests mainly include two aspects: natural language processing and cybersecurity. 1) For natural language processing, my research focuses on named entity recognition and relation extraction, as well as multimodal intelligent information processing. 2) For cybersecurity, my research focuses on open-source threat intelligence analysis, reverse engineering, binary code analysis and LLM security. 
+            <br>
+            <br>
+            I am seeking self-motivated Master/Ph.D students to join my team, and I look forward to working with you.  
+		</div>
+	</div>
+
+
+	
+	<div id="Experience" class="sectiontitle">
+		Biograph
+		<hr/>
+		<div name="biograph" id="shortbio" class="biocontent">
+			<p><ul>
+			<li>2024.07 - now, Assistant Researcher at ZGC Lab, focusing on the code analysis and model security by LLM</li>
+			<li>2019.09 - 2024.06, Ph.D student at Institute of Information Engineering, Chinese Academy of Sciences</li>
+			<li>2016.05 - 2019.07, Master student at Institute of Computing Technology, Chinese Academy of Sciences</li>
+			<li>2016.09 - 2019.07, Master student at Shandong University of Science and Technology</li>
+			<li>2011.09 - 2015.07, College student at Shandong University of Science and Technology</li>
+			</ul></p>
+		</div>
+	</div>
+	
+	<div id="News" class="sectiontitle">
+		News
+		<hr/>
+		<div name="news" id="news_content" class="sectioncontent">
+			<p><ul>
+			<li>One paper on Low-Source Text Classification accepted by COLING 2025. Congratulations to Yanxu Mao. (2024.11)</li>
+			</ul></p> 
+		</div>
+	</div>
+
+	<div id="Publication" class="sectiontitle">
+		Publications
+		<hr/>
+		<div name="publication" id="news_content" class="sectioncontent">
+			<sup><b>*</b></sup> Equal Contributions, <sup><b>†</b></sup> Corresponding author
+			<p><ul>
+			<li>	
+				<strong>
+				Low-Resource Fast Text Classification Based on Intra-Class and Inter-Class Distance Calculation
+				</strong>
+				<br/>
+				Yanxu Mao1<sup>*</sup>, <b>Peipei Liu<sup>*†</sup></b>, Tiehan Cui, Congying Liu, Datao You
+				<br/>
+				<em>The 31st International Conference on Computational Linguistics (COLING 2025)</em>
+				<br/>
+				<a href="http://arxiv.org/abs/2303.05955">[paper]</a>
+				</br>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				GEGA: Graph Convolutional Networks and Evidence Retrieval Guided Attention for Enhanced Document-level Relation Extraction
+				</strong>
+				<br/>
+				Yanxu Mao, Xiaohui Chen, <b>Peipei Liu<sup>†</sup></b>, Tiehan Cui, Zuhui Yue, Zheng Li
+				<br/>
+				<em>CoRR abs/2407.21384</em>
+				<br/>
+				<a href="https://arxiv.org/abs/2407.21384">[paper]</a>
+				</br>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Lexicon Graph Adapter Based BERT Model for Chinese Named Entity Recognition
+				</strong>
+				<br/>
+				Jie Liu, <b>Peipei Liu</b>, Yimo Ren, Jinfa Wang, Hongsong Zhu
+				<br/>
+				<em>International Conference on Knowledge Science, Engineering and Management (KSEM 2024)</em>
+				<br/>
+				<a href="https://link.springer.com/chapter/10.1007/978-981-97-5489-2_9#citeas">[paper]</a>
+				<br>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Hybrid Multi-stage Decoding for Few-shot NER with Entity-aware Contrastive Learning
+				</strong>
+				<br/>
+				<b>Peipei Liu</b>, Gaosheng Wang, Ying Tong, Jian Liang, Zhenquan Ding, Hongsong Zhu
+				<br/>
+				<em>CoRR abs/2404.06970</em>
+				<br/>
+				<a href="https://arxiv.org/abs/2404.06970">[paper]</a>
+				<a href="https://github.com/LiuPeiP-CS/Hybrid-Multi-Stages-Decoding-for-Few-Shot-NER-with-Entity-Aware-Contrastive-Learning">[code]</a>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				KnowCTI: Knowledge-based Cyber threat intelligence entity and relation extraction 
+				<!--<font color="#FF0000">(Oral presentation, top 2%)</font>-->
+				</strong>
+				<br/>
+				Gaosheng Wang, <b>Peipei Liu</b>, Jintao Huang, Haoyu Bin, Xi Wang, Hongsong Zhu
+				<br/>
+				<em>Computers & Security, 2024</em>
+				<br/>
+				<a href="https://www.sciencedirect.com/science/article/pii/S0167404824001251">[paper]</a>
+				
+			</li>
+			<br>
+			<li>	
+				<strong>
+				A Relation-Aware Heterogeneous Graph Transformer on Dynamic Fusion for Multimodal Classification Tasks
+				</strong>
+				<br/>
+				Yimo Ren, Jinfa Wang, Jie Liu, <b>Peipei Liu</b>, Hong Li, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)</em>
+				<br>
+				<a href="https://ieeexplore.ieee.org/document/10446972">[paper]</a>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Hierarchical Aligned Multimodal Learning for NER on Tweet Posts
+				</strong>
+				<br/>
+				<b>Peipei Liu</b>, Hong Li, Yimo Ren, Jie Liu, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)</em>
+				<br>
+				<a href="https://arxiv.org/abs/2305.08372">[pdf]</a>
+			</li>
+			<br/>
+			<li>	
+				<strong>
+				Multi-Granularity Cross-Modal Representation Learning for Named Entity Recognition on Social Media
+				</strong>
+				<br/>
+				<b>Peipei Liu</b>, Gaosheng Wang,  Hong Li, Jie Liu, Yimo Ren, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>Information Processing and Management, 2023</em>
+				<br/>
+				<a href="https://www.sciencedirect.com/science/article/pii/S0306457323002832">[paper]</a>
+				<a href="https://github.com/LiuPeiP-CS/IIE4MNER">[code]</a>
+			
+			</li>
+			<br/>
+			<li>	
+				<strong>
+				CSEDesc: CyberSecurity Event Detection with Event Description
+				</strong>
+				<br/>
+				Gaosheng Wang, <b>Peipei Liu</b>, Jintao Huang, Shuaizong Si, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>The 32nd International Conference on Artificial Neural Networks (ICANN 2023)</em>
+				<br/>
+				<a href='https://link.springer.com/chapter/10.1007/978-3-031-44213-1_3'>[paper]</a>
+				
+			</li>
+			<br/>
+			<li>	
+				<strong>
+				ip2text: A Reasoning-Aware Dataset for Text Generation of Devices on the Internet
+				</strong>
+				<br/>
+				Yimo Ren, Zhi Li, Hong Li, <b>Peipei Liu</b>, Jie Liu, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>Database Systems for Advanced Applications. DASFAA 2023 International Workshops. (DASFAA2023 Workshop)</em>
+				<br/>
+				<a href="https://link.springer.com/chapter/10.1007/978-3-031-35415-1_2">[paper]</a>
+				
+			
+			</li>
+			<br/>
+			<li>	
+				<strong>
+				Multiview Embedding with Partial Labels to Recognize Users of Devices Based on Unified Transformer
+				</strong>
+				<br/>
+				Yimo Ren, Hong Li, <b>Peipei Liu</b>, Jie Liu, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>International Journal of Intelligent Systems, 2023</em>
+				<br>
+				<a href="https://preview.hindawi.com/journals/ijis/2023/3138551/">[pdf]</a>
+				
+			</li>
+			<br>
+			<li>	
+				<strong>
+				CEntRE: A paragraph-level Chinese dataset for Relation Extraction among Enterprises
+				</strong>
+				<br/>
+				<b>Peipei Liu</b>, Hong Li, Zhiyu Wang, Yimo Ren, Jie Liu, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>2023 International Joint Conference on Neural Networks (IJCNN 2023)</em>
+				<br>
+				<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10191251">[paper]</a>
+				<a href="https://github.com/LiuPeiP-CS/Mining_Entity_Relations_Among_Enterprises">[code]</a>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Owner name entity recognition in websites based on multi-scale features and multi-modal co-attention
+				</strong>
+				<br/>
+				Yimo Ren, Hong Li, <b>Peipei Liu</b>, Jie Liu, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>Expert Systems With Applications, 2023</em>
+				<br>
+				<a href="https://www.sciencedirect.com/science/article/pii/S095741742300516X">[paper]</a>
+				
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Improving the Modality Representation with Multi-View Contrastive Learning for Multimodal Sentiment Analysis
+				</strong>
+				<br/>
+				<b>Peipei Liu</b>, Xin Zheng, Hong Li, Yimo Ren, Jie Liu, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2023)</em>
+				<br>
+				<a href="https://arxiv.org/abs/2210.15824">[paper]</a>
+			</li>
+			<br>
+			<!------------------------------------------------------------------------------------>
+			<li>	
+				<strong>
+				CL-GAN: A GAN-based Continual Learning Model for Generating and Detecting AGDs
+				</strong>
+				<br/>
+				Yimo Ren, Hong Li, <b>Peipei Liu</b>, Jie Liu, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>Computers & Security, 2023</em>
+				<br>
+				<a href="https://www.sciencedirect.com/science/article/pii/S0167404823002274">[paper]</a>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Owner name entity recognition in websites based on heterogeneous and dynamic graph transformer
+				</strong>
+				<br/>
+				Yimo Ren, Hong Li, <b>Peipei Liu</b>, Jie Liu, Zhi Li, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>Knowledge and Information Systems, 2023</em>
+				<br>
+				<a href="https://link.springer.com/article/10.1007/s10115-023-01908-4">[paper]</a>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Automatic construction of large-scale IoT datasets with multi-strategy fusion
+				</strong>
+				<br/>
+				Weifeng Wang*, <b>Peipei Liu*</b>, Zhiyu Wang, Yimo Ren, Hong Li
+				<br/>
+				<em>The 16th China Conference on Internet of Things (CWSN 2022)</em>
+				<br>
+				<a href="https://link.springer.com/chapter/10.1007/978-981-19-8350-4_3">[paper]</a>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Discover the ICS landmarks based on multi-stage clue mining
+				</strong>
+				<br/>
+				Jie Liu, Jinfa Wang, <b>Peipei Liu</b>, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>The 17th International Conference on Wireless Algorithms, Systems, and Applications (WASA 2022)</em>
+				<br>
+				<a href="https://link.springer.com/chapter/10.1007/978-3-031-19211-1_12">[paper]</a>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Multi-features based Semantic Augmentation Networks for Named Entity Recognition in Threat Intelligence
+				</strong>
+				<br/>
+				<b>Peipei Liu</b>, Hong Li, Zuoguang Wang, Jie Liu, Yimo Ren, Hongsong Zhu
+				<br/>
+				<em>Proceedings of 26th International Conference on Pattern Recognition (ICPR 2022)</em>
+				<br>
+				<a href="https://arxiv.org/abs/2207.00232">[paper]</a>
+				<a href="https://github.com/LiuPeiP-CS/NER4CTI">[code]</a>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				A Cybersecurity Event Extraction Method based on Machine Reading Comprehension
+				</strong>
+				<br/>
+				Zhenyang Huang, Yucheng Wang, Gaosheng Wang, <b>Peipei Liu</b>, Hongsong Zhu, Limin Sun
+				<br/>
+				<em>Journal of Cyber Security, 2022</em>
+				<br>
+				<a href="https://jcs.iie.ac.cn/xxaqxb/ch/reader/view_abstract.aspx?flag=2&file_no=202203070000001&journal_id=xxaqxb">[paper]</a>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Social engineering in cybersecurity: a domain ontology and knowledge graph application examples
+				</strong>
+				<br/>
+				Zuoguang Wang, Hongsong Zhu, <b>Peipei Liu</b>, Limin Sun
+				<br/>
+				<em>Cybersecurity, 2021</em>
+				<br>
+				<a href="https://cybersecurity.springeropen.com/articles/10.1186/s42400-021-00094-6">[paper]</a>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Multi-Source Knowledge Reasoning for Data-Driven IoT Security
+				</strong>
+				<br/>
+				Shuqin Zhang, Guangyao Bai, Hong Li, <b>Peipei Liu</b>, Minzhi Zhang
+				<br/>
+				<em>Sensors, 2021</em>
+				<br>
+				<a href="https://www.mdpi.com/1424-8220/21/22/7579">[paper]</a>
+			</li>
+			<br>
+			<li>	
+				<strong>
+				Speaker recognition based on image information
+				</strong>
+				<br/>
+				<b>Peipei Liu</b>, Xianglai Yang
+				<br/>
+				<em>CHINA SCIENCE PAPER, 2018</em>
+				<br>
+				<a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2019&filename=ZKZX201820017&uniplatform=NZKPT&v=C9RLFR3vrU0M0x8MROreR4cXMlfQ2ROOU4u5eyQiaXsSbb6hB-bj5-7KQdKeZLZ0">[paper]</a>
+			</li>
+			</ul></p> 
+		</div>
+	</div>
+
+	<div id="Projects" class="sectiontitle"> 
+		Projects
+		<hr/>
+		<div name="project" id="news_content" class="sectioncontent">
+			<p><ul>
+			<li>
+				Ontology and Knowledge Graph Construction for IoT Security 
+			</li>
+			<li>
+				Prediction and Analysis of IoT Endpoints
+			</li>
+			<li>
+				The Extraction and Utilization of Enterprise Relations
+			</li>
+			<li>
+				Abnormal Sound Detection (Audio sequence classification using Qt + MFCC)
+			</li>
+			<li>
+				Speaker Recognition Based on Lip Movement Detection (Identifying speakers in indoor scenarios using a webcam)
+			</li>
+			<li>
+				Robot "Maomao" (A demonstration robot developed at the Institute of Computing Technology, CAS)
+			</li>
+			</ul></p> 
+		</div>
+	</div>
+<!---
+	<div id="Tutorial" class="sectiontitle"> 
+		Tutorial
+		<hr/>
+		<div name="tutorial" id="news_content" class="sectioncontent">
+			<p><ul>
+			<li>
+				A summary of papers on <a href = "https://github.com/nxsEdson/Gaze_estimation_Sumarry">gaze estimation papers</a>. 
+			</li>
+			<li>
+				A survey on <a href = "./survey/Mirco expression.pdf">Mirco expression analysis</a>. 
+			</li>
+			<li>
+				A Chinese survey on <a href = "http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?file_no=20201103&flag=1">rPPG-based physiological measurement</a>. 
+			</li>
+			<li>
+				A summary of papers on <a href = "https://github.com/nxsEdson/awesome-3D-human">3D human mesh recovery</a>. 
+			</li>
+			</ul></p> 
+		</div>
+	</div>
+--->
+
+	<div id="Honors_awards" class="sectiontitle">
+		Honors & Awards
+		<hr/>
+		<div name="honors" id="news_content" class="sectioncontent">
+			<p><ul>
+			<li>Outstanding Student in Colleges and Universities of Shandong Province, 2014</li>
+			<li>Outstanding Graduate in Shandong Province, 2015</li>
+			<li>First Prize in Mathematics Competition for Shandong College Students, 2013</li>
+			<li>Third Prize in Mathematics Competition for Chinese College Students, 2014</li>
+			<li>Excellence Award in First Innovation and Entrepreneurship Competition of Shandong Province, 2018</li>
+			<li>Merit Student in University of Chinese Academy of Sciences, 2022</li>
+			<li>Merit Student in University of Chinese Academy of Sciences, 2023</li>
+			</ul></p> 
+		</div>
+	</div>
+
+	<div id="Services" class="sectiontitle">
+		Academic Services
+		<hr/>
+		<div name="services" id="shortbio" class="biocontent">
+			<p><ul>
+			<li><b>Invited Journal reviewer for</b> </br>
+			IEEE TCSS, ESWA, IPM, Complex & Intelligent Systems
+			</br>
+			</br>
+			<li><b>Invited Conference reviewer for</b> </br>
+			IJCNN2023, ICANN2023, ACM MM2024, ICASSP2024, ICASSP2025, IJCNN 2025 
+			</br>
+			</ul></p> 
+		</div>
+	</div>
+<!---
+	<div id="Talks" class="sectiontitle">
+		Talks
+		<hr/>
+		<div name="services" id="shortbio" class="biocontent">
+			<p>
+			2020.9, Huawei Noah's Ark Lab, "Remote Physiological Measurement from Face Videos"
+			</br>
+			2021.3, Zhidongxi (Online), "Remote Physiological Measurement from Face Videos"
+			</p> 
+		</div>
+	</div>
+
+
+
+	<div class="container">
+		<hr/>
+		<div style="display:inline-block;width:150px;">
+	  		<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=j96wYU74POZidxw4Y26P77zc5l-k-YcR2QpO2brsNgE"></script>
+		</div>
+	</div>
+--->
+    <div class="footer">
+        <p>The page has been visited <span class="counter" id="visit-counter">Loading...</span> times.</p>
+    </div>
+
+</body>
+</html>
